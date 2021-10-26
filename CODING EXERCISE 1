@@ -1,0 +1,43 @@
+package numericData;
+
+class RectangleComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double length = 2.5;
+		double width = 4.0;
+		double area;
+		double perimeter;
+		
+		area = length*width;
+		System.out.println("The area is: " + area);
+		perimeter = 2*(length*width);
+		System.out.println("The perimeter is: " + perimeter);
+
+	}
+
+}
+
+package numericData;
+
+class CylinderComputation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double radius = 1.2;
+		double height = 5.2;
+		final double PI = 3.14159265;
+		double surfaceArea;
+		double baseArea;
+		double volume;
+		
+		surfaceArea = (2*PI*radius*height) + (2*PI*radius*radius);
+		System.out.println("The surface area is: " + surfaceArea);
+		baseArea = PI*radius*radius;
+		System.out.println("The base area is: " + baseArea);
+		volume = PI*radius*radius*height;
+		System.out.println("The volume is: " + volume);
+
+	}
+
+}
